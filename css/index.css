@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+
+
+/* TOPページの環境 */
+.kannkyou_wrapper {
+  width: 100%; 
+}
+
+.kannkyou_inner {
+  width: 95%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kannkyou_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.kannkyou_left_inner {
+  width: 90%;
+}
+
+.kannkyou_left_inner h1,.kannkyou_left_inner p{
+  margin-bottom: 2rem;
+}
+
+.kannkyou_right {
+  flex: 2
+}
+
+.kannkyou_img {
+  width: 100%;
+  height: 100%;
+}
+
+.kannkyou_img img {
+  width: 100%;
+  height: 100%;
+}
+/* TOPページの環境終わり */
+
+.onnsenn_wrapper {
+  width: 100%;
+}
+
+.onnsenn_inner {
+  width: 95%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.onnsenn_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.onnsenn_left_inner {
+  width: 75%;
+}
+
+.onnsenn_left_inner h1,.onnsenn_left_inner
+p {
+  margin-bottom: 2rem;
+}
+
+.onnsenn_right {
+  flex: 2
+}
+
+.onnsenn_img {
+  width: 100%;
+  height: 100%;
+}
+
+.onnsenn_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.ryouri_wrapper {
+  width: 100%;
+}
+
+.ryouri_inner {
+  width: 95%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ryouri_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.ryouri_left_inner {
+  width: 70%;
+}
+
+.ryouri_left_inner h1,.ryouri_left_inner p {
+  margin-bottom: 2rem;
+}
+
+.ryouri_right {
+  flex: 2
+}
+
+.ryouri_img {
+  width: 100%;
+  height: 100%;
+}
+
+.ryouri_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.news_wrapper {
+  width: 100%;
+}
+
+.news_inner {
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5% 2%;
+}
+
+.news_photo_top {
+  margin: 5% auto;
+  width: 25%;
+  height:auto;
+}
+
+.news_photo_top img {
+  width: 100%;
+  height: auto;
+}
+
+.news_photo_under {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;align-items: center;
+}
+
+.news_photo_under_block {
+  width: 20%;
+}
+
+.news_photo_under_block img {
+  width: 70%;
+}
+
+.news .btn {
+  margin-top: 5%;
+}
