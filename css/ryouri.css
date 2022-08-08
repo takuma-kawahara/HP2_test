@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+.top {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/ryouri/ryouriFV.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  ;
+}
+
+.top_inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  writing-mode: vertical-rl;
+}
+
+.top_inner .title {
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  font-family: 'Hina Mincho', serif;
+}
+
+.description {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/ryouri/ryouri1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.description_inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.description_top {
+  width: 35%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.description_top h1 {
+  font-size: 2rem;
+}
+
+.description_under {
+  width: 45%;
+  text-align: center;
+  margin: 10% auto;
+}
+
+.ryouri_wrapper {
+  width: 100%;
+}
+
+.ryouri_inner {
+  width: 95%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.ryouri_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.ryouri_left_inner {
+  width: 65%;
+}
+
+.ryouri_left_inner h1,
+.ryouri_left_inner p {
+  margin-bottom: 2rem;
+}
+
+
+.ryouri_img {
+  width: 100%;
+  height: 60vh;
+}
+
+.ryouri_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.food_wrapper {
+  width:100%;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+}
+
+.food_inner {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25% auto;
+}
+
+.food_photo {
+  width: 25%;
+  position: relative;
+}
+
+.food_block1 {
+  top: 20rem;
+}
+
+.food_photo img {
+  width: 100%;
+}
+
+.food_block3{
+  top: -20rem;
+}
+
+.ryouri_introduction2 .ryouri_inner {
+  flex-direction: row;
+}
+
+.food_block4 {
+  top: -20rem;
+}
+
+.food_block6 {
+  top: 20rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .food_block1 {
+    top: 15rem;
+  }
+
+  .food_block3 {
+    top: -15rem;
+  }
+
+  .food_block4 {
+    top: -15rem;
+  }
+
+  .food_block6 {
+    top: 15rem;
+  }
+
+  .description_top {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description_top {
+  width: 71%;}
+
+  .description_under {
+    width: 76%;
+  }
+
+  .food_block1 {
+    top: 10rem;
+  }
+
+  .food_block3 {
+    top:-10rem
+  }
+
+  .food_block4 {
+    top: -10rem;
+  }
+
+  .food_block6 {
+    top: 10rem;
+  }
+}

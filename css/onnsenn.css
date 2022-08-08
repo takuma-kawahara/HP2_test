@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+.top {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/onnsenn/onnsenn\ FV.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;;
+}
+
+.top_inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  writing-mode: vertical-rl;
+}
+
+.top_inner .title {
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  font-family: 'Hina Mincho', serif;
+}
+
+.description {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/onnsenn/onnsenn1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.description_inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+.description_top {
+  width: 51%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.description_top h1 {
+  font-size: 2rem;
+}
+
+.description_under {
+  width: 90%;
+  text-align: center;
+  margin: 5% auto;
+}
+
+.description_under_table {
+  width: 100%;
+}
+
+.description_table_list {
+  line-height: 5rem;
+  margin-top: 10%;
+}
+
+.description_table_item {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-top: 1px solid #000;
+}
+
+.description_table_item span {
+  width: 20%;
+  text-align: left;
+  padding-left: 3%;
+}
+
+.description_table_item p {
+  padding-left: 10%;
+}
+
+.sennsitu{
+  letter-spacing: 2rem;
+}
+
+.kounou {
+  letter-spacing: 2rem;
+}
+
+.yusyuturyou {
+  letter-spacing: 0.5rem;
+}
+
+.description_table_last_item {
+  border-bottom: 1px solid black;
+}
+
+.introduction_wrapper {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 25rem;
+}
+
+.introduction_inner{
+  width: 90%;
+  margin: 0% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.introduction_block {
+  width: 40%;
+  height: 40%;
+  padding: 4%;
+  text-align: center;
+  position: relative;
+}
+
+.block2 {
+  top:20rem;
+}
+
+.block4 {
+  top:20rem;
+}
+
+.block6 {
+  top: 20rem;
+}
+
+.introduction_photo {
+  width: 100%;
+}
+
+.introduction_photo img {
+  display: block;
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.introduction_txt {
+  margin-top: 2rem;
+}
+
+.introduction_txt span {
+  background: linear-gradient(transparent 70%, #ff9 20%);
+}
+
+@media screen and (max-width: 768px) {
+  .description_top {
+    width: 40%;
+  }
+
+  .description_inner {
+    width: 75%;
+  }
+
+  .description_table_list {
+    font-size: 0.7rem;
+  }
+
+
+}
+
+

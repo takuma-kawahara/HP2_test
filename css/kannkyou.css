@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+.top {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/kannkyou/kannkyou\ FV.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.top_inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  writing-mode: vertical-rl;
+}
+
+.top_inner .title {
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  font-family: 'Hina Mincho', serif;
+}
+
+.description {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/kannkyou/kannkyou1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.description_inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.description_top {
+  width: 45%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.description_top h1 {
+  font-size: 2rem;
+}
+
+.description_under {
+  width: 45%;
+  text-align: center;
+  margin: 10% auto;
+}
+
+/* 各セクションのCSSはじめ */
+.content1_wrapper {
+  width: 100%;
+}
+
+.content1_inner {
+  width: 95%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.content1_left_inner {
+  width: 65%;
+}
+
+.content1_left_inner h1,
+.content1_left_inner p {
+  margin-bottom: 2rem;
+}
+
+
+.content1_img {
+  width: 100%;
+  height: 60vh;
+}
+
+.content1_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 各セクションのcss終わり */
+
+.content2_wrapper {
+  width: 100%;
+}
+
+.content2_inner {
+  width: 95%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.content2_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.content2_left_inner {
+  width: 65%;
+}
+
+.content2_left_inner h1,
+.content2_left_inner p {
+  margin-bottom: 2rem;
+}
+
+
+.content2_img {
+  width: 100%;
+  height: 60vh;
+}
+
+.content2_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content3_wrapper {
+  width: 100%;
+}
+
+.content3_inner {
+  width: 95%;
+  padding: 5% 2%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content3_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.content3_left_inner {
+  width: 65%;
+}
+
+.content3_left_inner h1,
+.content3_left_inner p {
+  margin-bottom: 2rem;
+}
+
+
+.content3_img {
+  width: 100%;
+  height: 60vh;
+}
+
+.content3_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .description_top{
+    width: 60%;
+  }
+
+  .description_under {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description_top {
+    width: 80%;
+  }
+
+  .description_under {
+    width: 80%;
+  }
+
+  
+}

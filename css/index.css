@@ -1,6 +1,33 @@
 @charset "UTF-8";
 
+.top {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/top_page/top\ page\ FV.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
 
+.top_inner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top_inner .sub_title {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.top_inner .title {
+  color: #fff;
+  font-size: 4rem;
+  font-family: 'Hina Mincho', serif;
+}
 
 /* TOPページの環境 */
 .kannkyou_wrapper {
@@ -26,25 +53,23 @@
 }
 
 .kannkyou_left_inner {
-  width: 90%;
+  width: 65%;
 }
 
 .kannkyou_left_inner h1,.kannkyou_left_inner p{
   margin-bottom: 2rem;
 }
 
-.kannkyou_right {
-  flex: 2
-}
 
 .kannkyou_img {
   width: 100%;
-  height: 100%;
+  height: 60vh;
 }
 
 .kannkyou_img img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 /* TOPページの環境終わり */
 
@@ -72,7 +97,7 @@
 }
 
 .onnsenn_left_inner {
-  width: 75%;
+  width: 65%;
 }
 
 .onnsenn_left_inner h1,.onnsenn_left_inner
@@ -80,18 +105,15 @@ p {
   margin-bottom: 2rem;
 }
 
-.onnsenn_right {
-  flex: 2
-}
-
 .onnsenn_img {
   width: 100%;
-  height: 100%;
+  height: 60vh;
 }
 
 .onnsenn_img img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .ryouri_wrapper {
@@ -117,25 +139,24 @@ p {
 }
 
 .ryouri_left_inner {
-  width: 70%;
+  width: 75%;
+  padding-right: 10%;
 }
 
 .ryouri_left_inner h1,.ryouri_left_inner p {
   margin-bottom: 2rem;
 }
 
-.ryouri_right {
-  flex: 2
-}
 
 .ryouri_img {
   width: 100%;
-  height: 100%;
+  height: 60vh;
 }
 
 .ryouri_img img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .news_wrapper {
@@ -147,6 +168,10 @@ p {
   text-align: center;
   margin: 0 auto;
   padding: 5% 2%;
+}
+
+.news_inner h1 {
+  font-size: 2rem;
 }
 
 .news_photo_top {
@@ -173,8 +198,34 @@ p {
 
 .news_photo_under_block img {
   width: 70%;
+  transition:all 0.2s ease-in-out 0s;
+}
+
+.news_photo_under_block img:hover {
+  transform: scale(1.1);
 }
 
 .news .btn {
   margin-top: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .ryouri_left_inner {
+    width: 62%;
+  }
+
+  .kannkyou_left_inner {
+    width: 76%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .kannkyou_left_inner{
+  width: 80%;
+  }
+
+  .onnsenn_left_inner {
+    width: 68%;
+  }
+
 }
