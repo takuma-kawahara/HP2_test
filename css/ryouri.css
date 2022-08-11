@@ -193,3 +193,58 @@
     top: 10rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .ryouri_inner,.ryouri_introduction2 .ryouri_inner {
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 0 0;
+    padding-top: 2rem;
+  }
+
+  .ryouri_left {
+    order: 2;
+  }
+
+  .ryouri_left_inner {
+  margin: 5% auto;
+  }
+
+  .ryouri_img {
+    height: 50vh;
+  }
+
+  .ryouri_left_inner h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .food_inner {
+    flex-direction: column;
+    margin: 0rem auto;
+    display: block;
+    width: 85%;
+  }
+
+  .food_block1,.food_block2,.food_block3,.food_block4,.food_block5,.food_block6
+  {
+    top: 0;
+  }
+
+  .food_wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .food_photo {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .ryouri_left_inner h1,
+    .ryouri_left_inner p
+  {
+    margin-bottom: 0;
+  }
+}

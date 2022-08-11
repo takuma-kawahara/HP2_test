@@ -209,6 +209,68 @@
   .description_under {
     width: 80%;
   }
+}
 
-  
+@media screen and (max-width: 425px) {
+  .description_inner {
+    width: 75%;
+  }
+
+  .content1_inner {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 90%;
+  }
+
+  .content1_left_inner {
+    padding-top: 3rem;
+    width: 59%;
+    padding-right: 0;
+  }
+
+  .content1_img {
+    height: 50vh;
+  }
+
+  .content1_left_inner h1,.content2_left_inner h1,.content3_left_inner h1{ 
+    text-align: center;
+  }
+
+  .content2_inner {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 90%;
+  }
+
+  .content2_left_inner,.content3_left_inner {
+    padding-top: 3rem;
+    width: 59%;
+  }
+
+  .content2_img {
+    height: 50vh;
+  }
+
+  .content3_inner {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 90%;
+  }
+
+  .ryouri_left_inner {
+    padding-top: 3rem;
+    width: 70%;
+    padding-right: 0;
+  }
+
+  .content3_img {
+    height: 50vh;
+  }
+
+  .content3_img img {
+    object-position: 28% 0%;
+  }
 }

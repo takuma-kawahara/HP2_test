@@ -58,25 +58,30 @@
         <div class="tax_wrapper">
           <div class="tax_inner">
             <h class="font1">入場料金</h>
-            <table class="tax_illustration">
-              <tr>
-                <th></th>
-                <th>平日</th>
-                <th>平日ナイト<br>(17:00〜)</th>
-                <th>土日祝日</th>
-              </tr>
-              <tr>
-                <td>大人<br>（中学生以上）</td>
-                <td>700円</td>
-                <td>500円</td>
-                <td>750円</td>
-              </tr>
-              <tr>
-                <td>子供<br>(小学生)</td>
-                <td>400円</td>
-                <td>300円</td>
-                <td>400円</td>
-              </tr>
+            <table class="c-table">
+              <thead> 
+                <tr>
+                  <th></th>
+                  <th>平日</th>
+                  <th>平日ナイト<br>(17:00〜)</th>
+                  <th>土日祝日</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th date-label>
+                  大人<br>（中学生以上）</th>
+                  <td date-label="平日">700円</td>
+                  <td date-label="平日ナイト(17:00〜)">500円</td>
+                  <td date-label="土日祝日">700円</td>
+                </tr>
+                <tr>
+                  <th date-label>子供<br>(小学生)</th>
+                  <td date-label="平日">400円</td>
+                  <td date-label="平日ナイト(17:00〜）">300円</td>
+                  <td date-label="土日祝日">400円</td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
@@ -160,6 +165,6 @@
       </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
   <body>
 </html>

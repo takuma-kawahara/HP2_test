@@ -229,3 +229,68 @@ p {
   }
 
 }
+
+@media screen and (max-width: 425px) {
+
+  .kannkyou_inner {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 90%;
+    }
+
+  .kannkyou_left_inner {
+    padding-top: 3rem;
+    width: 59%;
+    padding-right: 0;
+  }
+  
+  .kannkyou_img {
+    height: 50vh;
+  }
+
+  .onnsenn_inner {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 90%;
+  }
+
+  .onnsenn_left_inner {
+    padding-top: 3rem;
+    width: 59%;
+  }
+
+  .onnsenn_img {
+    height: 50vh;
+  }
+
+  .ryouri_inner {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 90%;
+  }
+
+  .ryouri_left_inner {
+    padding-top: 3rem;
+    width: 70%;
+    padding-right: 0;
+  }
+
+  .onnsenn_img {
+    height: 50vh;
+  }
+
+  h1.font1 {
+    text-align: center;
+  }
+
+  .news_inner {
+    padding: 3rem  2%;
+  }
+
+  .footer_under_left h1 {
+  text-align: left;
+  }
+}

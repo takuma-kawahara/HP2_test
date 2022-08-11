@@ -56,16 +56,18 @@
 .description_under {
   width: 90%;
   text-align: center;
-  margin: 5% auto;
+  margin: 10% auto;
 }
 
 .description_under_table {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .description_table_list {
+  width: 90%;
   line-height: 5rem;
-  margin-top: 10%;
 }
 
 .description_table_item {
@@ -81,9 +83,6 @@
   padding-left: 3%;
 }
 
-.description_table_item p {
-  padding-left: 10%;
-}
 
 .sennsitu{
   letter-spacing: 2rem;
@@ -170,4 +169,58 @@
 
 }
 
+@media screen and (max-width: 425px) {
+  .description_top {
+    width: 45%;
+  }
 
+  .description_inner {
+    width: 79%;
+  }
+
+  .description_under {
+    width: 94%;
+  }
+
+  .description_table_list {
+    line-height: 4rem;
+  }
+  .description_under_table {
+  flex-wrap: wrap;
+  }
+
+  .description_table_item span{
+    width: 30%;
+  } 
+
+  .description_table_item p {
+    width: 62%;
+    text-align-last: left;
+    font-size: 0.6rem;
+  }
+
+  .block2 {
+    top: 0rem;
+  }
+
+  .block4 {
+    top: 0rem;
+  }
+
+  .block6 {
+    top: 0rem;
+  }
+
+  .introduction_wrapper {
+    padding-bottom: 5rem;
+  }
+
+  .introduction_inner {
+    flex-direction: column;
+  }
+
+  .introduction_block {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
