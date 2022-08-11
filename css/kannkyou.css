@@ -171,7 +171,7 @@
 }
 
 .content3_left_inner {
-  width: 65%;
+  width: 73%;
 }
 
 .content3_left_inner h1,
@@ -208,6 +208,10 @@
 
   .description_under {
     width: 80%;
+  }
+
+  .content1_left_inner p,.content2_left_inner p,.content3_left_inner p{
+    font-size: 0.7rem;
   }
 }
 
@@ -293,4 +297,10 @@
   width: 62%;
 }
 
+}
+
+@media screen and (max-width: 320px) {
+  .content3_left_inner{
+    width: 68%;
+  }
 }

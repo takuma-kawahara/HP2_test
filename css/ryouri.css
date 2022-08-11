@@ -192,6 +192,10 @@
   .food_block6 {
     top: 10rem;
   }
+
+  .txt {
+    font-size: 0.7rem;
+  }
 }
 
 @media screen and (max-width: 425px) {

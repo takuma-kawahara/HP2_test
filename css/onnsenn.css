@@ -191,10 +191,11 @@
 
   .description_table_item span{
     width: 30%;
+    padding-left: 0;
   } 
 
   .description_table_item p {
-    width: 62%;
+    width: 70%;
     text-align-last: left;
     font-size: 0.6rem;
   }
@@ -222,5 +223,23 @@
   .introduction_block {
     width: 90%;
     margin: 0 auto;
+  }
+
+  .sennsitu,.kounou,.yusyuturyou {
+    letter-spacing: normal;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .description_top {
+    width: 55%;
+  }
+
+  .description_table_list {
+    width: 100%;
+  }
+
+  .description_table_item p {
+    width: 86%;
   }
 }

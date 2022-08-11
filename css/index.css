@@ -232,6 +232,10 @@ p {
     width: 68%;
   }
 
+  .kannkyou_inner p,.onnsenn_left_inner p,.ryouri_left_inner p{
+    font-size: 0.7rem;
+  }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -282,7 +286,7 @@ p {
 
   .ryouri_left_inner {
     padding-top: 3rem;
-    width: 64%;
+    width: 70%;
     padding-right: 0;
   }
 
@@ -300,6 +304,10 @@ p {
 
   .footer_under_left h1 {
   text-align: left;
+  }
+
+  .news_photo_under_block {
+    width: 25%;
   }
 }
 
