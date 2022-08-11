@@ -343,6 +343,11 @@ header {
 }
 
 @media screen and (max-width: 425px) {
+
+  .header_logo_img {
+      width: 15%;
+  }
+
   .top_inner p.sub_title { 
     font-size: 1rem;
   }
@@ -422,5 +427,15 @@ header {
   .footer_top {
     padding-top: 0;
     padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .top_inner p.title{
+    font-size: 2.5rem;
+  }
+  
+  .header_logo_img {
+    width: 15%;
   }
 }

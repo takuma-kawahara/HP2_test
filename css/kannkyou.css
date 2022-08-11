@@ -274,3 +274,23 @@
     object-position: 28% 0%;
   }
 }
+
+@media screen and (max-width: 375px) {
+
+.description_top{
+  width: 90%;
+}
+
+.content3_img img {
+  object-position: 32% 0%;
+}
+
+.content1_inner p,.content2_inner p,.content3_inner p{
+  font-size: 0.7rem;
+}
+
+.content3_left_inner {
+  width: 62%;
+}
+
+}

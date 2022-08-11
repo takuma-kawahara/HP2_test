@@ -80,3 +80,27 @@
   opacity: 0.7;
   transform:scale(0.9)
 }
+
+@media screen and (max-width: 425px){
+  .contact_box {
+    flex-direction :column;
+  }
+
+  .contact_box._area {
+    align-items: center;
+  }
+
+  .contact_form_box1,
+  .contact_form_box2,
+  .contact_txtarea {
+    width: 100%;
+  }
+
+  .contact_form_ttl {
+    width: 100%;
+  }
+
+  .contact_btn {
+    margin-top: 10%;
+  }
+}

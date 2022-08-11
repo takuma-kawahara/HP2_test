@@ -215,7 +215,11 @@ p {
   }
 
   .kannkyou_left_inner {
-    width: 76%;
+    width: 86%;
+  }
+
+  .onnsenn_left_inner {
+    width: 75%
   }
 }
 
@@ -244,6 +248,10 @@ p {
     width: 59%;
     padding-right: 0;
   }
+
+  .kannkyou_left_inner p,.onnsenn_inner p,.ryouri_left_inner p{
+    font-size: 0.7rem;
+  }
   
   .kannkyou_img {
     height: 50vh;
@@ -258,7 +266,7 @@ p {
 
   .onnsenn_left_inner {
     padding-top: 3rem;
-    width: 59%;
+    width: 72%;
   }
 
   .onnsenn_img {
@@ -274,7 +282,7 @@ p {
 
   .ryouri_left_inner {
     padding-top: 3rem;
-    width: 70%;
+    width: 64%;
     padding-right: 0;
   }
 
@@ -293,4 +301,11 @@ p {
   .footer_under_left h1 {
   text-align: left;
   }
+}
+
+@media screen and (max-width: 375px) {
+
+.kannkyou_left_inner {
+  width: 70%;
+}
 }
