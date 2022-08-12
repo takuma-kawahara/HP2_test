@@ -42,7 +42,7 @@ li {
 
 header {
   height: 70px;
-  width: 100%;
+  width: 98%;
   padding: 1%;
   position: fixed;
   background-color: #fff;
@@ -86,6 +86,7 @@ header {
 .header_right {
   width: 50%;
   height: 100%;
+  padding-right: 1%;
 }
 
 .header_right ul {
@@ -99,6 +100,7 @@ header {
   position: relative;
   display: inline-block;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .header_right a::after {
@@ -298,7 +300,7 @@ header {
     width: 24px;
     position: absolute;
     top: 30px;
-    right: 30px;
+    right: 20px;
     border-top: solid 4px #030303;
     cursor: pointer;
     z-index: 100;

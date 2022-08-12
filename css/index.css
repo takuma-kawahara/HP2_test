@@ -53,7 +53,7 @@
 }
 
 .kannkyou_left_inner {
-  width: 65%;
+  width: 80%;
 }
 
 .kannkyou_left_inner h1,.kannkyou_left_inner p{
@@ -97,7 +97,8 @@
 }
 
 .onnsenn_left_inner {
-  width: 65%;
+  width: 80%;
+  padding-left: 8%;
 }
 
 .onnsenn_left_inner h1,.onnsenn_left_inner
@@ -139,7 +140,7 @@ p {
 }
 
 .ryouri_left_inner {
-  width: 75%;
+  width: 80%;
   padding-right: 10%;
 }
 
@@ -211,7 +212,7 @@ p {
 
 @media screen and (max-width: 1024px) {
   .ryouri_left_inner {
-    width: 62%;
+    width: 86%;
   }
 
   .kannkyou_left_inner {
@@ -219,8 +220,9 @@ p {
   }
 
   .onnsenn_left_inner {
-    width: 75%
+    width: 86%
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -229,7 +231,11 @@ p {
   }
 
   .onnsenn_left_inner {
-    width: 68%;
+    width: 80%;
+  }
+
+  .ryouri_left_inner {
+    width: 80%;
   }
 
   .kannkyou_inner p,.onnsenn_left_inner p,.ryouri_left_inner p{
@@ -270,7 +276,8 @@ p {
 
   .onnsenn_left_inner {
     padding-top: 3rem;
-    width: 72%;
+    width: 59%;
+    padding-left: 0;
   }
 
   .onnsenn_img {
@@ -286,7 +293,7 @@ p {
 
   .ryouri_left_inner {
     padding-top: 3rem;
-    width: 70%;
+    width: 59%;
     padding-right: 0;
   }
 
@@ -313,7 +320,19 @@ p {
 
 @media screen and (max-width: 375px) {
 
-.kannkyou_left_inner {
+.kannkyou_left_inner,.onnsenn_left_inner,.ryouri_left_inner {
   width: 70%;
 }
+}
+
+@media screen and (max-width: 320px) {
+  .top_inner p.title{
+    font-size: 2rem;
+  }
+
+  .kannkyou_left_inner,
+  .onnsenn_left_inner,
+  .ryouri_left_inner {
+    width: 80%;
+  }
 }

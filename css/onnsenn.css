@@ -154,12 +154,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .description_top {
-    width: 40%;
-  }
 
   .description_inner {
-    width: 75%;
+    width: 93%;
   }
 
   .description_table_list {
@@ -171,7 +168,7 @@
 
 @media screen and (max-width: 425px) {
   .description_top {
-    width: 45%;
+    width: 80%;
   }
 
   .description_inner {
@@ -228,6 +225,12 @@
   .sennsitu,.kounou,.yusyuturyou {
     letter-spacing: normal;
   }
+}
+
+@media screen and (max-width: 375px) {
+  .description_top{
+    width: 85%;
+  } 
 }
 
 @media screen and (max-width: 320px) {

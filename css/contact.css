@@ -42,7 +42,7 @@
 }
 
 .contact_form_ttl {
-  width: 40%;
+  width: 28%;
   height: 100%;
   font-size: 1.15rem;;
 }
@@ -86,7 +86,7 @@
     flex-direction :column;
   }
 
-  .contact_box._area {
+  .contact_box._area,textarea {
     align-items: center;
   }
 
@@ -94,6 +94,11 @@
   .contact_form_box2,
   .contact_txtarea {
     width: 100%;
+  }
+
+  .contact_box,.contact_box._area,
+  textarea{
+  align-items: baseline;
   }
 
   .contact_form_ttl {

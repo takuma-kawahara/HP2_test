@@ -64,13 +64,30 @@
   padding: 4%;
 }
 
+@media screen and (max-width: 768px) {
+  .topics_block {
+    width: 40%;
+    margin: 3%;
+  }
+
+  .topics_photo {
+    height: 30vh;
+  }
+}
+
 @media screen and (max-width: 425px){
   .topics_inner {
     flex-direction: column;
   }
 
   .topics_block {
-    width: 75%;
+    width: 80%;
     margin: 5%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .topics_photo {
+    height: 25vh;
   }
 }
