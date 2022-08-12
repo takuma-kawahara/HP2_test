@@ -39,10 +39,17 @@
   width: 70%;
   padding-left: 5px;
   font-size: 1rem;
+  border: 1px solid #000;
+  margin-left: 2%;
 }
 
+.contact_form_box1 {
+  width: 71.099%;
+}
+
+
 .contact_form_ttl {
-  width: 28%;
+  width: 25%;
   height: 100%;
   font-size: 1.15rem;;
 }
@@ -51,6 +58,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 5%;
+  padding-top: 1%;
 }
 
 .contact_box._area {
@@ -62,7 +70,10 @@
   height: 30vh;
   font-size: 1rem;
   padding: 5px;
+  border: 1px solid #000;
+  margin-left: 2%;
 }
+
 
 .contact_btn {
   display: block;
@@ -93,12 +104,16 @@
   .contact_form_box1,
   .contact_form_box2,
   .contact_txtarea {
-    width: 100%;
+    width: 92%;
   }
 
   .contact_box,.contact_box._area,
   textarea{
   align-items: baseline;
+  }
+
+  .contact_form_box1 {
+    width: 94.5%;
   }
 
   .contact_form_ttl {
